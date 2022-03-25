@@ -14,7 +14,12 @@
     
 }
 
-.banner H1 {
-
-  
+.centrar_texto{
+    text-align: center;
 }
+
+.tamano_img{
+    width: 20%;
+    max-width: 800px;
+}
+
