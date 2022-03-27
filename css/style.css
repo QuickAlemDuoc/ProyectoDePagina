@@ -23,3 +23,8 @@
     max-width: 800px;
 }
 
+.tamanoimg{
+    height: 500px;
+}
+
+.carousel-inner > .item > img { margin: 0 auto; }
