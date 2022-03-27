@@ -6,7 +6,7 @@
 }
 
 
-/*    */
+/* Clases del proyecto*/
 .banner img{
     
     width: 100%;
@@ -25,4 +25,13 @@
 
 .tamanoimg{
     height: 500px !important;
+}
+
+
+.alinear_menu{
+
+    margin-left: 100px;
+
+
+
 }
