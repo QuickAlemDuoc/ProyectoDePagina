@@ -14,6 +14,84 @@
     <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>>
 </head>
 <body>
+    <div class="col-md-3 col-sm-12 container">
+        <img class="img-fluid" alt="100%x280" src="img/logo gato.png" alt="">
+        <h2 class="col-md-12 col-sm-12 cmsmasters_heading" style="text-align: center" >¿Cual es el proceso de adopcion?</h2>
+    </div>
+    <br>
+    <div>
+        <h6 class="col-md-12 col-sm-12 container cmsmasters_heading" style="text-align: center">En Pet Rescue nos comprometemos a acompañarte , guiarte y resolver cualquier tipo de duda emergente . Por lo cual , a continuacion te dejaremos un paso a paso con el proceso de adopcion completo para que estes enterado de cada detalle  </h6>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="steps">
+                <progress id="progress" value=0 max=100 ></progress>
+            <div class="step-item">
+                <button class="step-button text-center" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    1
+                </button>
+                <div class="step-title">
+                    Primer Paso
+                </div>
+            </div>
+            <div class="step-item">
+                <button class="step-button text-center collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    2
+                </button>
+                <div class="step-title">
+                    Segundo paso
+                </div>
+            </div>
+            <div class="step-item">
+                <button class="step-button text-center collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    3
+                </button>
+                <div class="step-title">
+                    Tercer Paso
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div  id="headingOne">
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="card-body">
+                   your content goes here...
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div  id="headingTwo">
+        
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="card-body">
+                    your content goes here...
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div  id="headingThree">
+        
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="card-body">
+                    your content goes here...
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
   <div class="container">
     <div class="row">
         <div class="col-12">
@@ -22,20 +100,63 @@
         
         <div class="col-12">
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-
                             <div class="col-md-4 mb-3">
                                 <div class="card">
                                     <img class="img-fluid" alt="100%x280" src="img/gato1.jpg">
                                     <div class="card-body">
                                         <h4 class="card-title">Luna</h4>
                                         <p class="card-text">Soy una gata simpática y necesito mucho amor</p>
+                                        <!-- Button trigger modal -->
+                                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Ver
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-xl">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Descripcion</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-md-5 col-sm-12">
+                                                                    <img class="img-fluid" src="img/gato1.jpg" alt="No se encontró imagen">
+                                                                </div>
+                                                                <div class="col-md-7 col-sm-12">
+                                                                    <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
+                                                                        <div class="layer-container">
+                                                                            <div class="quarantine">
+                                                                                <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Luna</span></span></span></span></p>
+                                                                                <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
+                                                                            <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
+                                                                                <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
+                                                                                <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
+                                                                                <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
+                                                                                <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                                                        
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
 
+                                                            </div>
+
+                                                        </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                                                        <button type="button" class="btn btn-primary">Adoptame!</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
