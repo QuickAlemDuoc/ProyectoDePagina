@@ -81,6 +81,7 @@ height: 500px;
     align-items: center;
     margin-bottom: 2rem;
     position: relative;
+    
 }
 .step-button {
     width: 50px;
@@ -89,6 +90,7 @@ height: 500px;
     border: none;
     background-color: var(--prm-gray);
     transition: .4s;
+  
 }
 .step-button[aria-expanded="true"] {
     width: 60px;
@@ -103,6 +105,7 @@ height: 500px;
 .step-item {
     z-index: 10;
     text-align: center;
+    
 }
 #progress {
   -webkit-appearance:none;
@@ -112,6 +115,7 @@ height: 500px;
     height: 10px;
     margin-left: 18px;
     margin-bottom: 18px;
+    
 }
 /* to customize progress bar */
 #progress::-webkit-progress-value {
@@ -125,8 +129,10 @@ height: 500px;
     
 
 
+.color_buttom{
 
-
+    background-color: rgb(180, 180, 180);
+}
 
 
 
