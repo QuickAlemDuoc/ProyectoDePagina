@@ -172,10 +172,22 @@ footer{
 
 .entregamos{
     color: #fff;
-    padding-top: 70px;
+    padding-top: 150px;
 }
 
 
+.banner_adopta{
+  background-image: url("/img/fondo_huellas.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  padding-top: 70px;
+  color: #fff;
+  margin-left: 0px !important;
+  
+}
 
 /* css menú*/
 
@@ -203,11 +215,7 @@ body {
       z-index: 1002;
       visibility: visible; }
   
-      /* 
-  p {
-    color: #b3b3b3;
-    font-weight: 300; }
-  */
+ 
 
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -286,7 +294,7 @@ body {
       header .navbar .nav-link {
         padding: 1.7rem 1rem;
         outline: none !important;
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: #614083 !important; }
         @media (max-width: 1199.98px) {
           header .navbar .nav-link {
