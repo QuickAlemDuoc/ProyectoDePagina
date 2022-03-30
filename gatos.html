@@ -7,11 +7,12 @@
     <link type="text/css" rel="stylesheet"  href="css/style.css">
     <title>Lista de Gatos</title>
     <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
     <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.js" integrity="sha512-TbK1NsnYsmC/wJRzEIvaG5D23gVk8cQBPCSVRtvaTTTEZyRoBSmPEvYqMZsafm7Mtt0XzdMwTCkBxPifBSKc5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <div class="col-md-3 col-sm-12 container">
@@ -91,10 +92,10 @@
             </div>
         </div>
         </div>
-        </div>
+    </div>
 
-        <!--  tarjetas con perfiles de gatos -->
-  <div class="container">
+<!--  tarjetas con perfiles de gatos -->
+    <div class="container">
     <div class="row">
         <div class="col-12">
             <h3 class="mb-3 text-center">¡Hola!, te queremos conocer </h3>
@@ -272,7 +273,7 @@
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Descripcion</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Descripcion del gato</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -283,15 +284,22 @@
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
-                                <div class="layer-container">
-                                    <div class="quarantine">
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Luna</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Nombre:</span></strong><span lang="es" xml:lang="es"> Luna</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es"> Mestizo</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></p>
+                                        </div>
+                                            <p><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es"> 3 años</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunada (séxtuple y bordetella) y desparasitada (cada 6 meses) </span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Acerca de mi: </span></strong><span lang="es" xml:lang="es">Me gusta el cariño y soy muy tranquilo</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -310,7 +318,7 @@
 
 
 <!-- Modal cascabel-->
-<div class="modal fade" id="cascabel" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="cascabel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
@@ -325,15 +333,22 @@
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
-                                <div class="layer-container">
-                                    <div class="quarantine">
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Luna</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Nombre:</span></strong><span lang="es" xml:lang="es"> Cascabel</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es"> Europeo</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></p>
+                                        </div>
+                                            <p><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es"> 1 años</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Sin vacunas</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">No Esterilizada</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Acerca de mi: </span></strong><span lang="es" xml:lang="es">Me gusta tener mi espacio y jugar con juguetes</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -350,7 +365,7 @@
 </div>
 
 <!-- Modal suzy-->
-<div class="modal fade" id="suzy" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="suzy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
@@ -365,15 +380,22 @@
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
-                                <div class="layer-container">
-                                    <div class="quarantine">
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Suzy</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Nombre:</span></strong><span lang="es" xml:lang="es"> Suzy</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es"> Mestizo</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></p>
+                                        </div>
+                                            <p><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es"> 7 meses</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Pequeña</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Desparasitada</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Acerca de mi: </span></strong><span lang="es" xml:lang="es">Me encanta siempre tener un poco de leche para poder jugar con mas energia</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -390,7 +412,7 @@
 </div>
 
 <!-- Modal cassie-->
-<div class="modal fade" id="cassie" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="cassie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
@@ -405,15 +427,22 @@
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
-                                <div class="layer-container">
-                                    <div class="quarantine">
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Cassie</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Nombre:</span></strong><span lang="es" xml:lang="es"> Cassie</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es"> Siames</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></p>
+                                        </div>
+                                            <p><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es"> 3 años</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Grande</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunada (séxtuple y bordetella)</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">No Esterilizada</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Acerca de mi: </span></strong><span lang="es" xml:lang="es">Me encanta dormir en todo tipo de lugares</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -430,7 +459,7 @@
 </div>
 
 <!-- Modal garfield-->
-<div class="modal fade" id="garfield" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="garfield" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
@@ -445,15 +474,22 @@
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
-                                <div class="layer-container">
-                                    <div class="quarantine">
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Garfield</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Nombre:</span></strong><span lang="es" xml:lang="es"> Garfield</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es"> Mestizo</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es"> Macho</span></p>
+                                        </div>
+                                            <p><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es"> 2 meses</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Pequeño</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Sin vacunas</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">No Esterilizado</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Acerca de mi: </span></strong><span lang="es" xml:lang="es">Me gusta mucho jugar, cuidao al ponerte tus pantuflas porque puedo estar dentro</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -470,7 +506,7 @@
 </div>
 
 <!-- Modal stich-->
-<div class="modal fade" id="stich" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="stich" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
@@ -485,15 +521,22 @@
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
-                                <div class="layer-container">
-                                    <div class="quarantine">
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Stich</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Nombre:</span></strong><span lang="es" xml:lang="es"> Stich</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es"> Mestizo</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es"> Macho</span></p>
+                                        </div>
+                                            <p><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es"> 2 años</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediano</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Sin vacunas</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Acerca de mi: </span></strong><span lang="es" xml:lang="es">Me gusta mucho jugar y comer sobres de comida</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -510,7 +553,7 @@
 </div>
 
 <!-- Modal sombra-->
-<div class="modal fade" id="sombra" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="sombra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
@@ -525,15 +568,22 @@
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
-                                <div class="layer-container">
-                                    <div class="quarantine">
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Sombra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Nombre:</span></strong><span lang="es" xml:lang="es"> Sombra</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es"> Maine Coon</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es"> Macho</span></p>
+                                        </div>
+                                            <p><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es"> 1 año</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediano</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es"> Vacunado (Rabia)</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Acerca de mi: </span></strong><span lang="es" xml:lang="es">Me gusta mucho jugar y comer churu para tener mas energia</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -550,7 +600,7 @@
 </div>
 
 <!-- Modal ron-->
-<div class="modal fade" id="ron" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="ron" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
@@ -565,15 +615,22 @@
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
-                                <div class="layer-container">
-                                    <div class="quarantine">
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Ron</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Nombre:</span></strong><span lang="es" xml:lang="es"> Ron</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es"> Mestizo</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es"> Macho</span></p>
+                                        </div>
+                                            <p><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es"> 6 meses</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Pequeño</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es"> Sin vacunas</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es"> Esterilizado</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Acerca de mi: </span></strong><span lang="es" xml:lang="es"> Me gusta correr por toda la casa y esconderme</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -588,8 +645,9 @@
         </div>
     </div>
 </div>
+
 <!-- Modal palomo-->
-<div class="modal fade" id="palomo" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="palomo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
@@ -604,15 +662,22 @@
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="layer mix-bgColor_white mix-textColor_neutral95 layer_collapseTop">
-                                <div class="layer-container">
-                                    <div class="quarantine">
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Nombre de la mascota: </span></strong><span lang="es" xml:lang="es">Palomo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es">Mestizo</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es">3 años</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es">Hembra</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Mediana - grande</span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es">Vacunado (séxtuple y bordetella) desparasitado (cada 6 meses) </span></span></span></span></p>
-                                        <p><span><span><span><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es">Esterilizado</span></span></span></span></p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Nombre:</span></strong><span lang="es" xml:lang="es"> Palomo</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Raza: </span></strong><span lang="es" xml:lang="es"> Mestizo</span></p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p><strong><span lang="es" xml:lang="es">Sexo: </span></strong><span lang="es" xml:lang="es"> Macho</span></p>
+                                        </div>
+                                            <p><strong><span lang="es" xml:lang="es">Edad: </span></strong><span lang="es" xml:lang="es"> 6 meses</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Tamaño:</span></strong><span lang="es" xml:lang="es"> Pequeño</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Vacunas: </span></strong><span lang="es" xml:lang="es"> Sin vacunas</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Esterilizacion: </span></strong><span lang="es" xml:lang="es"> Esterilizado</span></p>
+                                            <p><strong><span lang="es" xml:lang="es">Acerca de mi: </span></strong><span lang="es" xml:lang="es"> Me gustan jugar con pelotas de hilo</span></p>
                                     </div>
                                 </div>
                             </div>
