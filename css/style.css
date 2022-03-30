@@ -161,6 +161,20 @@ height: 400px;
    
 }
 
+.banner_pet2 h3{
+
+  font-family: 'Lapsus Pro Bold';
+  font-size: 60px;
+  color: #614083;
+}
+
+.banner_pet2 h2{
+
+  font-family: 'Lapsus Pro Bold';
+  font-size: 60px;
+  color: #F6A229;
+}
+
 .banner_fondo{
 
     width: 100%;
