@@ -135,7 +135,40 @@ height: 500px;
 }
 
 
+.banner_gato{
+background-image: url("/img/gato_banner.jpg");
+height: 500px;
+width: 100%;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat; }
 
+
+.banner_pet{
+margin-top: 70px;
+margin-bottom: 70px;
+margin-left: 150px;
+width: 400px;
+height: 400px;
+
+}
+
+.banner_pet2{
+   padding-top: 70px;
+}
+
+.banner_fondo{
+
+    width: 100%;
+    height: 500px;
+}
+
+
+footer{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #F6A229;
+}
 
 
 
@@ -166,10 +199,12 @@ body {
       z-index: 1002;
       visibility: visible; }
   
+      /* 
   p {
     color: #b3b3b3;
     font-weight: 300; }
-  
+  */
+
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
