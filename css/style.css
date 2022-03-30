@@ -141,7 +141,10 @@ height: 500px;
 width: 100%;
 background-size: cover;
 background-position: center center;
-background-repeat: no-repeat; }
+background-repeat: no-repeat; 
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
 
 
 .banner_pet{
@@ -155,6 +158,7 @@ height: 400px;
 
 .banner_pet2{
    padding-top: 70px;
+   
 }
 
 .banner_fondo{
@@ -173,6 +177,15 @@ footer{
 .entregamos{
     color: #fff;
     padding-top: 150px;
+  
+
+}
+
+.entregamos h1{
+
+  font-family: 'Lapsus Pro Bold';
+  font-size: 70px;
+
 }
 
 
@@ -186,8 +199,86 @@ footer{
   padding-top: 70px;
   color: #fff;
   margin-left: 0px !important;
+  margin-right: 0px !important;
   
 }
+
+@media (max-width: 768px) {
+  
+
+  .banner_adopta{
+    
+    height: 900px;
+        
+  }
+
+  .banner_adopta p{
+   
+    padding-left: 70px !important;
+    
+    }
+    
+    .banner_adopta li{
+      
+      padding-left: 100px !important;
+      
+      }
+
+      .hero p{
+       
+        font-size: 48x;
+       
+      }
+
+      .hero_bloque{
+        
+        padding-left: 25px !important;
+  
+      }
+
+
+
+
+}
+
+@font-face {
+  font-family:'Forte' ;
+  src: url('/font/forte/FORTE.TTF') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family:'Bebas' ;
+  src: url('/font/Bebas-Neue-master/BebasNeue-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family:'Lapsus Pro Bold' ;
+  src: url('/font/lapsus-pro/LapsusPro-Bold.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+
+.banner_adopta p{
+font-family: 'Forte';
+font-size: 70px;
+padding-left: 150px;
+
+}
+
+.banner_adopta li{
+  font-family: 'Bebas';
+  font-size: 40px;
+  padding-left: 150px;
+  
+  }
+
 
 /* css menú*/
 
@@ -235,6 +326,20 @@ body {
     background-position: center center;
     background-repeat: no-repeat; }
   
+    .hero p{
+      color: #614083;
+      font-family:'Lapsus Pro Bold' ;
+      font-size: 60px;
+     
+    }
+
+  
+
+    .hero_bloque{
+      padding-top: 200px;
+      padding-left: 150px;
+
+    }
   /* Header */
   header {
     position: absolute;
